@@ -26,8 +26,9 @@
 
 <body>
 
-<form action="mail.php" method="POST">
-    <p>Name</p> <input type="text" name="name">
+<form action="php/mail.php" method="POST">
+    <label> for="name">Name</label>
+        <input type="text" id="name" name="name">
     <p>Email</p> <input type="text" name="email">
     <p>Message</p> <textarea type="text" name="message" rows="6" cols="25"></textarea><br />
     <input type="submit" value="Send"><input type="reset" value="Clear">
@@ -41,6 +42,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
