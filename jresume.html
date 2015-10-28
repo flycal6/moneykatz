@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+
+    <meta name="description" content="Jackie's resume">
+    <meta name="author" content="Brian Thomas">
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/c/c7/400px-Fish.png">
   
     <!-- Bootstrap core CSS -->
@@ -21,221 +22,295 @@
     <![endif]-->
 
 	<!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
 
 
-     <title>Jacqueline Thomas - Resumé</title>
 
-     <style type="text/css">
-        * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; }
-        .clear { clear: both; }
-        #page-wrap { width: 85%; margin: 40px auto 60px; }
-        #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, serif; font-size: 16px; color: #999; font-weight: normal; }
-        span { font-style: italic; font-family: Georgia, serif; font-size: 14px; color: #999; font-weight: normal; }
-        p { margin: 0 0 16px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
-        #objective p { font-family: Georgia, serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dd { width: 75%; float: right; }
-        dd.clear { float: none; margin: 0; height: 15px; }
-        footer {background: none repeat scroll 0 0 #f0f0f0;padding: 30px; }
-     </style>
+     <title>Jacqueline Thomas - Résumé</title>
+
+<style>
+    img {
+        margin-top: 25px;
+        position: relative;
+        z-index: 20;
+    }
+
+    .container-fluid {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 950px;
+    }
+
+    </style>
+
 </head>
 
 <body>
-<!-- NAVBAR
-================================================== -->
-
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Jacqueline Thomas</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Brian Thomas</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-<!--                <li><a href="images/fixit.html">Sample Web Form</a></li> -->
-<!--                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-      </div>
+            </button>
+            <a class="navbar-brand" href="#">Brian Thomas</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li style="padding-bottom: 7px"><a href="http://github.com/flycal6">My Github</a></li>
+                <li style="padding-bottom: 7px"><a href="gallery.html">Gallery</a></li>
+                <li style="padding-bottom: 7px"><a href="resume.html">Résumé</a></li>
+                <li style="padding-bottom: 7px"><a href="jresume.html">Jackie Thomas</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Websites<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Websites</li>
+                        <li style="padding-bottom: 7px"><a href="fixit.html">Online Maintenance Form</a></li>
+                        <li style="padding-bottom: 7px"><a href="nate/nate.html">Promotional Website</a></li>
+                        <li style="padding-bottom: 7px"><a href="lunchdetention.html">School Detention</a></li>
+                        <!-- <li role="separator" class="divider"></li>
+                         <li class="dropdown-header">Nav header</li>
+                         <li style="padding-bottom: 7px"><a href="#">Separated link</a></li>
+                         <li style="padding-bottom: 7px"><a href="#">One more separated link</a></li> -->
+                     </ul>
+                 </li>
+                <li style="padding-bottom: 7px"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
     </div>
-</br>
-</br>
-</br>
-    <div id="page-wrap">
-    
-        <img src="images/jthomas.png" alt="Photo of Jacqueline Thomas" id="pic" />
-    
-        <div id="contact-info" class="vcard">
+</nav>
+<br />
+<br />
+<br />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-9 col-sm-9 col-md-10">
+            <h1>Jacqueline Thomas</h1>
         
-            <!-- Microformats! -->
-        
-            <h1 class="fn">Jacqueline Thomas</h1>
-        
-            <p>
+            <p class="small">
                 Cell: +965.5048.7341<br />
                 Email: <a class="email" href="mailto:jacquelinamy@gmail.com">jacquelinamy@gmail.com</a>
             </p>
-        </div>
-                
-        <div id="objective">
-            <p>
+
+            <p class="text-muted">
                 I am an enthusiastic, knowledgeable, and creative teacher leader, 
                 with experience in coaching, teaching, and administration.
                 I am seeking a postion as a literacy coach, language arts, or social studies teacher. 
                 I am excited to begin my next adventure in learning and leadership. 
             </p>
         </div>
-        
-        <div class="clear"></div>
-        
-        <dl>
-            <dd class="clear"></dd>
-            
-            <dt>Education</br></br></br></dt>
-            <dd>
-                <h2>California State University, Chico</h2>
-                <p><strong>California Multiple Subject Teaching Credential</strong><br />
-                   <strong>Bachelor of Arts in Liberal Studies</strong></p>
-               </br></br>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Teaching and </br>Leadership</br>Experience</dt>
-            <dd>
-                <h2>Literacy Coach, Grades 6-9 <span>American School of Kuwait, 2014-Current</span></h2>
-                <ul>
-                	<li>Facilitated the implementation and utilization of strategies designed to improve students’ ability to read, write, think, and succeed in Language Arts through the application of the Teacher’s College Reading and Writing Workshop approach</li>
-					<li>Collaborated with administration, teacher teams, and individual teachers on an on-going basis to ensure that new techniques/skills were effectively used in classroom instruction, acted as a resource to teachers, helping them to learn, experiment, apply new knowledge, and implement new strategies</li>
-					<li>Developed school-wide literacy goals aligned with assessment data (MAP) and curricular standards (CCSS), updated all curriculum documents, including curriculum maps, vertical alignment guides, and UbDs</li>
-					<li>Conducted literacy in-service training on best teaching practices for middle school and high school faculty, including facilitating teacher walkthroughs/peer observations, modeling in classrooms, observing teachers, and videotaping teacher-student conferences and mini-lessons to show growth/collaboration</li>
-                </ul>
-                <h2>Honors English Teacher, Grade 8 <span>American School of Kuwait, 2015-Current</span></h2>
-                <ul>
-                	<li>Maintained consistent classroom management to establish and promote an atmosphere of mutual respect, fairness and equality</li>
-					<li>Motivated students to take responsibility and ownership of their own learning, setting their own individual education goals and learning pace</li>
-					<li>Individualized the assessment process for students, based upon the CCSS and in accordance with their understanding and performance</li>
-					<li>Integrated technology into the classroom by developing units to include: interactive whiteboards, Moodle, computer literacy, and other web-based learning tools</li>
-					<li>Adapted and utilized the Reading and Writing Workshop approach to accelerate learning and maintain high standards</li>
-				</ul>
-				<h2>Social Studies Teacher, Grade 8 <span>American School of Kuwait, 2012-2014</span></h2>
-                <ul>
-                	<li>Employed kinesthetic, visual and auditory approaches to lesson planning, creating an engaging and interactive learning environment</li>
-					<li>Emphasized reading and writing in conjunction with Social Studies through use of the Common Core State Standards and AERO standards</li>
-					<li>Contributed to the UBD Learning Committee, both in preparation and presentation of professional development</li>
-					<li>Collaborated with and, at times, led or assisted colleagues as the the Social Studies Department Chair (2013-2015) and Grade Level Lead (2012-13)</li>
-				</ul>
-				<h2>Literacy Coach, Grades 1-5 <span>Escuela Internacíonal Sampedrana, Honduras, 2011-2012</span></h2>
-                <ul>
-                	<li>Supported a balanced writing program through the implementation of the Teacher’s College Writing Workshop, produced a coordinating pacing guide</li>
-					<li>Conceptualized, developed, and supervised student-run publishing centers, publishing student’s independent work through a wide range of mediums, with a final writing portfolio</li>
-					<li>Participated in weekly team planning and reflected upon suggestions from my principal, team leader, and colleagues in order to continually refine my teaching and leadership</li>
-					<li>Assumed responsibility for organization, planning, and delivery of all Writing Workshop curriculum in grades 1-5</li>
-				</ul>
-				<h2>Assistant Principal, Grades K-8 <span>Kirkwood School, California, 2008-2010</span></h2>
-                <ul>
-                	<li>Contributed to the academic and social tone of the school through consistent demonstration of professionalism, enthusiasm for the school community, and a commitment to educational excellence</li>
-					<li>Established and maintained rapport with staff, students and parents; mentored and led new teachers</li>
-					<li>Assisted in adopting Language Arts, Social Studies, Science & Math curriculum, pacing guides and curriculum maps for grades K-8, supervised the writing and implementation of the Single Plan for Student Achievement</li>
-					<li>Led and attended staff meetings, county-level meetings, IEP meetings, SST meetings, parent conferences, and administration conferences</li>
-					<li>Initiated and facilitated an after-school sports program with a nearby school; coached co-ed volleyball teams, co-directed the students’ fall performance, organized fundraising activities, advised the student government, and sponsored the school yearbook</li>
-				</ul>	
-            </dd>
+        <div class="col-xs-3 col-md-2 ">
+            <img src="images/jthomas.png" alt="Photo of Jackie Thomas" class=" img-thumbnail img-responsive" />
+        </div>
+        <hr style="width: 100%; position: relative; z-index: 1;">
+    </div>
 
-            <dd>
+    <div class="row">
+        <div class="col-xs-12">
+            <p class="lead">DEGREES AND CERTIFICATIONS</p>
+        </div>
+    </div>
 
-                <h2>Additional Teaching and Leadership Experience</h2>
-                <ul>
-                <li>Language Arts Department Chair, <span>American School of Kuwait, 2015-Current</span></li>
-                <li>Literacy Committee, NESA Representative, <span>American School of Kuwait, 2015-Current</span></li>
-                <li>Reading Accreditation Committee Chair, <span>American School of Kuwait, 2014-Current</span></li>
-                <li>Middle School ELL Teacher, <span>American School of Kuwait, Summer 2013, 2014-2015</span></li>
-                <li>Multiple Subjects Teacher, Grades 7/8, <span>Kirkwood School, California, 2008-2010</span></li>
-                <li>Language Arts Teacher, Grade 5, <span>EIS, Honduras, 2007-2008, 2010-2012</span></li>
-                <li>Multiple Subjects Teacher, Grades 4-8, <span>Kirkwood School, California 2004-2007</span></li>
-                <li>Multiple Subjects Teacher, Grades 5/6, <span>Hamilton City Elementary, California 2004</span></li>
-                <li>After School Program, Grades 5-8, <span>Hamilton City Elementary, California 2004</span></li>
-                </ul>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Professional Development</dt>
-            <dd>
-                <h2>Teachers College Reading and Writing Project<span></span></h2>
-                <ul>
-                    <li>Reading Summer Institute, Columbia Teachers College, <span>2015</span></li>
-                    <li>NESA Conferring Workshop, C. Anderson, <span>2015</span></li>
-                    <li>Reading and Writing Weekend Workshop, L. Calkins, <span>2011</span></li>
-                </ul> 
-                 <h2>Additional Professional Development<span></span></h2>
-                <ul>
-                    <li>Classroom Assessment for Student Learning, NESA Winter Institute, <span>2015</span></li>
-                    <li>Leader in Me: 7 Habits of Highly Effective People, <span>2011</span></li>
-                    <li>Lindamood Bell: Visualizing and Verbalizing, <span>2010</span></li>
-                    <li>Administrator Training Program (AB 430), <span>2009</span></li>
-                    <li>North State Math and Science Partnership Grant, <span>2007</span></li>
-                </ul> 
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>References</dt>
-            <dd>Available on request</dd>
-            
-            <dd class="clear"></dd>
-        </dl>
-        
-        <div class="clear"></div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <strong>California State University, Chico</strong><br />
+                <span style="padding-left: 30px">California Multiple Subject Teaching Credential</span><br />
+                <span style="padding-left: 30px;">Bachelor of Arts in Liberal Studies</span></p>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p class="lead">TEACHING AND LEADERSHIP EXPERIENCE</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-5 lead" style="margin-bottom: 0">
+            Literacy Coach, Grades 6-9
+        </div>
+        <div class="col-xs-7 text-right text-muted">
+            American School of Kuwait  2014-Current
+        </div>
+    </div>
+
+    <div class="col-xs-12">
+        <ul> 
+            <li style="padding-bottom: 7px">Facilitated the implementation and utilization of strategies designed to improve students’ ability to read, write, think, and succeed in Language Arts through the application of the Teacher’s College Reading and Writing Workshop approach</li>
+            <li style="padding-bottom: 7px">Collaborated with administration, teacher teams, and individual teachers on an on-going basis to ensure that new techniques/skills were effectively used in classroom instruction, acted as a resource to teachers, helping them to learn, experiment, apply new knowledge, and implement new strategies</li>
+            <li style="padding-bottom: 7px">Developed school-wide literacy goals aligned with assessment data (MAP) and curricular standards (CCSS), updated all curriculum documents, including curriculum maps, vertical alignment guides, and UbDs</li>
+            <li style="padding-bottom: 7px">Conducted literacy in-service training on best teaching practices for middle school and high school faculty, including facilitating teacher walkthroughs/peer observations, modeling in classrooms, observing teachers, and videotaping teacher-student conferences and mini-lessons to show growth/collaboration</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-7 col-sm-8 col-md-7 lead" style="margin-bottom: 0">
+            Honors English Teacher, Grade 8
+        </div>
+        <div class="col-xs-5 col-sm-4 col-md-5 text-right text-muted">
+            American School of Kuwait, 2015-Current
+        </div>
+    </div>
+
+    <div class="col-xs-12">
+        <ul> 
+            <li style="padding-bottom: 7px">Maintained consistent classroom management to establish and promote an atmosphere of mutual respect, fairness and equality</li>
+            <li style="padding-bottom: 7px">Motivated students to take responsibility and ownership of their own learning, setting their own individual education goals and learning pace</li>
+            <li style="padding-bottom: 7px">Individualized the assessment process for students, based upon the CCSS and in accordance with their understanding and performance</li>
+            <li style="padding-bottom: 7px">Integrated technology into the classroom by developing units to include: interactive whiteboards, Moodle, computer literacy, and other web-based learning tools</li>
+            <li style="padding-bottom: 7px">Adapted and utilized the Reading and Writing Workshop approach to accelerate learning and maintain high standards</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-7 col-sm-8 col-md-7 lead" style="margin-bottom: 0">
+            Social Studies Teacher, Grade 8
+        </div>
+        <div class="col-xs-5 col-sm-4 col-md-5 text-right text-muted">
+            American School of Kuwait, 2012-2014
+        </div>
+    </div>
+
+    <div class="col-xs-12">
+        <ul> 
+            <li style="padding-bottom: 7px">Employed kinesthetic, visual and auditory approaches to lesson planning, creating an engaging and interactive learning environment</li>
+            <li style="padding-bottom: 7px">Emphasized reading and writing in conjunction with Social Studies through use of the Common Core State Standards and AERO standards</li>
+            <li style="padding-bottom: 7px">Contributed to the UBD Learning Committee, both in preparation and presentation of professional development</li>
+            <li style="padding-bottom: 7px">Collaborated with and, at times, led or assisted colleagues as the the Social Studies Department Chair (2013-2015) and Grade Level Lead (2012-13)</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-7 col-sm-8 col-md-7 lead" style="margin-bottom: 0">
+            Literacy Coach, Grades 1-5
+        </div>
+        <div class="col-xs-5 col-sm-4 col-md-5 text-right text-muted">
+            Escuela Internacíonal Sampedrana, Honduras, 2011-2012
+        </div>
+    </div>
+
+    <div class="col-xs-12">
+        <ul> 
+            <li style="padding-bottom: 7px">Supported a balanced writing program through the implementation of the Teacher’s College Writing Workshop, produced a coordinating pacing guide</li>
+            <li style="padding-bottom: 7px">Conceptualized, developed, and supervised student-run publishing centers, publishing student’s independent work through a wide range of mediums, with a final writing portfolio</li>
+            <li style="padding-bottom: 7px">Participated in weekly team planning and reflected upon suggestions from my principal, team leader, and colleagues in order to continually refine my teaching and leadership</li>
+            <li style="padding-bottom: 7px">Assumed responsibility for organization, planning, and delivery of all Writing Workshop curriculum in grades 1-5</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-7 col-sm-8 col-md-7 lead" style="margin-bottom: 0">
+            Assistant Principal, Grades K-8
+        </div>
+        <div class="col-xs-5 col-sm-4 col-md-5 text-right text-muted">
+            Kirkwood School, California, 2008-2010
+        </div>
+    </div>
+
+    <div class="col-xs-12">
+        <ul> 
+            <li style="padding-bottom: 7px">Contributed to the academic and social tone of the school through consistent demonstration of professionalism, enthusiasm for the school community, and a commitment to educational excellence</li>
+            <li style="padding-bottom: 7px">Established and maintained rapport with staff, students and parents; mentored and led new teachers</li>
+            <li style="padding-bottom: 7px">Assisted in adopting Language Arts, Social Studies, Science & Math curriculum, pacing guides and curriculum maps for grades K-8, supervised the writing and implementation of the Single Plan for Student Achievement</li>
+            <li style="padding-bottom: 7px">Led and attended staff meetings, county-level meetings, IEP meetings, SST meetings, parent conferences, and administration conferences</li>
+            <li style="padding-bottom: 7px">Initiated and facilitated an after-school sports program with a nearby school; coached co-ed volleyball teams, co-directed the students’ fall performance, organized fundraising activities, advised the student government, and sponsored the school yearbook</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p class="lead">ADDITIONAL TEACHING AND LEADERSHIP EXPERIENCE</p>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <ul> 
+            <li style="padding-bottom: 7px">Language Arts Department Chair, <span>American School of Kuwait, 2015-Current</span></li>
+            <li style="padding-bottom: 7px">Literacy Committee, NESA Representative, <span>American School of Kuwait, 2015-Current</span></li>
+            <li style="padding-bottom: 7px">Reading Accreditation Committee Chair, <span>American School of Kuwait, 2014-Current</span></li>
+            <li style="padding-bottom: 7px">Middle School ELL Teacher, <span>American School of Kuwait, Summer 2013, 2014-2015</span></li>
+            <li style="padding-bottom: 7px">Multiple Subjects Teacher, Grades 7/8, <span>Kirkwood School, California, 2008-2010</span></li>
+            <li style="padding-bottom: 7px">Language Arts Teacher, Grade 5, <span>EIS, Honduras, 2007-2008, 2010-2012</span></li>
+            <li style="padding-bottom: 7px">Multiple Subjects Teacher, Grades 4-8, <span>Kirkwood School, California 2004-2007</span></li>
+            <li style="padding-bottom: 7px">Multiple Subjects Teacher, Grades 5/6, <span>Hamilton City Elementary, California 2004</span></li>
+            <li style="padding-bottom: 7px">After School Program, Grades 5-8, <span>Hamilton City Elementary, California 2004</span></li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p class="lead">PROFESSIONAL DEVELOPMENT</P>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p class="lead">Teachers College Reading and Writing Project</p>
+        </div>
+        <div class="col-xs-12">
+            <ul> 
+                <li style="padding-bottom: 7px">Reading Summer Institute, Columbia Teachers College, <span>2015</span></li>
+                <li style="padding-bottom: 7px">NESA Conferring Workshop, C. Anderson, <span>2015</span></li>
+                <li style="padding-bottom: 7px">Reading and Writing Weekend Workshop, L. Calkins, <span>2011</span></li>
+            </ul>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p class="lead">Additional Professional Development</p>
+        </div>
+    </div>
+
+    <div class="col-xs-12">
+        <ul> 
+            <li style="padding-bottom: 7px">Classroom Assessment for Student Learning, NESA Winter Institute, <span>2015</span></li>
+            <li style="padding-bottom: 7px">Leader in Me: 7 Habits of Highly Effective People, <span>2011</span></li>
+            <li style="padding-bottom: 7px">Lindamood Bell: Visualizing and Verbalizing, <span>2010</span></li>
+            <li style="padding-bottom: 7px">Administrator Training Program (AB 430), <span>2009</span></li>
+            <li style="padding-bottom: 7px">North State Math and Science Partnership Grant, <span>2007</span></li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-7 col-sm-8 col-md-7 lead" style="margin-bottom: 0">
+            References
+        </div>
+    </div>
+    <div class="col-xs-5 col-sm-4 col-md-5 text-right text-muted">
 
     </div>
-        <div>
-    <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 Brian Thomas &middot;</p>
-      </footer></div>
+
+    <div class="col-xs-12">
+        Available on request
+        <hr>
+    </div>
+</div>
+<hr style="margin: 0 25px 0 25px;">
+
+<footer class="panel-footer">
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2015 Brian Thomas &nbsp;<a href="contact.html">Need a website?</a> </p>
+</footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-</body>
 
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
 </html>

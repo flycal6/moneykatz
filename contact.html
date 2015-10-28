@@ -14,9 +14,8 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="http://getbootstrap.com/examples/signin/signin.css">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
-<script src="/js/bootstrap.min.js"></script>
+
+
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -37,6 +36,45 @@
 </head>
 
 <body>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brian Thomas</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="http://github.com/flycal6">My Github</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="resume.html">Résumé</a></li>
+                <li><a href="jresume.html">Jackie Thomas</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Websites<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Websites</li>
+                        <li><a href="fixit.html">Online Maintenance Form</a></li>
+                        <li><a href="nate/nate.html">Promotional Website</a></li>
+                        <li><a href="lunchdetention.html">School Detention</a></li>
+                        <!-- <li role="separator" class="divider"></li>
+                         <li class="dropdown-header">Nav header</li>
+                         <li><a href="#">Separated link</a></li>
+                         <li><a href="#">One more separated link</a></li>-->
+                     </ul>
+                 </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
 <div class="container-fluid" style="max-width: 721px">
      <div class="page-header">
          <h1>Contact Us</h1>
@@ -76,8 +114,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
   </body>
 </html>
