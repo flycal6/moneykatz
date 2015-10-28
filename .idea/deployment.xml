@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Webfaction" />
+  <component name="PublishConfigData" uploadOnCheckin="dd52f3fd-2734-4f1f-8d0f-11c9b0e8f28e">
+    <option name="myUploadOnCheckinName" value="Webfaction" />
+  </component>
 </project>
