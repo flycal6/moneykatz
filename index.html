@@ -22,7 +22,21 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+<style>
+    body {
+        margin-bottom: 0;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        background-color: #f5f5f5;
+    }
+</style>
 </head>
 <!-- NAVBAR
 ================================================== -->
@@ -193,14 +207,16 @@
         <!-- /END THE FEATURETTES -->
 
         <hr>
-        <!-- FOOTER -->
-        <footer>
-            <p class="pull-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2015 Brian Thomas &middot; <a href="contact.html">Need a Website?</a> <a href="mailto:brianraythomas@gmail.com">Email Me</a></p>
-        </footer>
-
-    </div><!-- /.container -->
+    </div>
 </div>
+        <!-- FOOTER -->
+    <footer class="panel-footer">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 Brian Thomas &nbsp;<a href="contact.html">Need a website?</a> </p>
+    </footer>
+
+    <!-- /.container -->
+
 <!--TODO get local .js files for these scripts-->
 <!-- Bootstrap core JavaScript
 ================================================== -->
